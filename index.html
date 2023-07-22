@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nộp Bài Tập Buổi 3</title>
+</head>
+<body>
+    <h2>Câu 1: Bài tập về Iframe</h2>
+    <p><strong>Đây là bản map</strong></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d479.1878606983348!2d105.91685017064628!3d21.01785536616737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9214f28fa2b%3A0xb807d378ba1a029e!2zVHLGsOG7nW5nIFRIUFQgVGjhuqFjaCBCw6Bu!5e0!3m2!1svi!2s!4v1686433485432!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bản Đồ"></iframe>
+
+    <h2>Câu 2: Bài tập về form</h2>
+    <p><strong>Form đăng ký</strong></p>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post" autocomplete="on">
+        <label for="fullname">Họ tên:</label>
+        <br>
+        <input type="text" id="fullname" name="fullname" placeholder="Ví dụ: levana" required>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="Ví dụ levana@gmail.com" required>
+        <br>
+        <label type="pass">Mật khẩu:</label>
+        <br>
+        <input type="password" id="pass" name="matkhau" required>
+        <br>
+        <button type="submit">Đăng ký</button>
+    </form>
+    <br>
+    <br>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post" autocomplete="on">
+        <input type="text" id="sreach" name="timkiem" placeholder="Nhập nội dung tìm kiếm" required>
+        <input type="submit" value="Tìm kiếm">
+    </form>
+    <br>
+    <h2>Câu 3: Bài tập để ôn lại kiến thức về form</h2>
+    <p><b>- Thẻ input:</b></p>
+    <br>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post" autocomplete="on">
+        <label for="fullname">Kiểu text:</label>
+        <br>
+        <input type="text" id="fullname" name="fullname" placeholder="Nhập họ tên..." required>
+        <br>
+        <br>
+        <label for="email">Kiểu email:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Nhập email" required>
+        <br>
+        <br>
+        <label for="pass">Kiểu password:</label>
+        <br>
+        <input type="password" id="pass" name="matkhau" required>
+        <br>
+        <br>
+        <label for="date">Kiểu date:</label>
+        <br>
+        <input type="date" id="date" name="ngày">
+        <br>
+        <br>
+        <label for="time">Kiểu time:</label>
+        <br>
+        <input type="time" id="time" name="thoigian">
+        <br>
+        <br>
+        <label for="file">Kiểu file:</label>
+        <br>
+        <input type="file" id="file" name="kieufile">
+        <br>
+        <br>
+        <div>Kiểu radio</div>
+        <input type="radio" id="radio" name="gioitinh">
+        <lable for="radio">Nam</lable>
+        <br>
+        <input type="radio" id="radio" name="gioitinh">
+        <lable for="radio">Nữ</lable>
+        <br>
+        <input type="radio" id="radio" name="gioitinh">
+        <lable for="radio">Khác</lable>
+        <br>
+        <br>
+        <div>Kiểu range:</div>
+        <label for="range">Âm lượng (min= 0 và max=100):</label>
+        <br>
+        <input type="range" id="range" name="âm lượng">
+        <br>
+        <label for="color">Kiểu color:</label>
+        <br>
+        <input type="color" id="color" name="màu sắc">
+        <br>
+        <br>
+        <label for="clother">Thẻ select:</label>
+        <br>
+        <select name="clother" id="clother">
+            <option value="Quần">Quần</option>
+            <option value="Áo">Áo</option>
+            <option value="Mũ">Mũ</option>
+            <option value="Khăn">Khăn</option>
+        </select>
+        <br>
+        <br>
+        <label for="textarea">- Thẻ textarea (có cols = 30 và rows = 10):</label>
+        <br>
+        <textarea id="textarea" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
